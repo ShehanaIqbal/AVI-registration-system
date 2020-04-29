@@ -24,9 +24,9 @@
         $manager->editGeneralUser();
     }elseif(isset($_POST['update_admin'])){
          $manager->updateAdmin();
-     }elseif(isset($_POST['update_G_user'])){
-         $manager->updateGeneralUser();
-     }
+    }elseif(isset($_POST['update_G_user'])){
+        $manager->updateGeneralUser();
+    }
 
     class manager{
     	private static $sessions=array();
