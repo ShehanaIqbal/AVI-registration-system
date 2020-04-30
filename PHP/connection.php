@@ -23,7 +23,7 @@ class Database {
 
 		// Error handling
 		if(mysqli_connect_error()) {
-			trigger_error("Failed to connect to MySQL: " . mysql_connect_error(),
+			trigger_error("Failed to conenct to MySQL: " . mysql_connect_error(),
 				 E_USER_ERROR);
 		}
 	}
